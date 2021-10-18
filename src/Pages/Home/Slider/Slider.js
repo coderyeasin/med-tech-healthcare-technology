@@ -16,9 +16,9 @@ const Slider = () => {
                         src={slide1}
                         alt="First slide"
                         />
-                        <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <Carousel.Caption className="w-50 mx-auto caption">
+                        <h3>Front Line Doctor's</h3>
+                        <p>We have Some Awesome Stuff & Doctor's, Who take all responsibilities for patients in COVID-19.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -28,9 +28,9 @@ const Slider = () => {
                         alt="Second slide"
                         />
 
-                        <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <Carousel.Caption className="w-50 mx-auto caption">
+                        <h3>Health Fitness</h3>
+                        <p>How to burn your weight, She's provided Awesome Fitness Tips, Follow Dr.Nourine</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -40,9 +40,9 @@ const Slider = () => {
                         alt="Third slide"
                         />
 
-                        <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <Carousel.Caption className="w-50 mx-auto caption">
+                        <h3>Collab with online Patients</h3>
+                        <p>we have also online doctor's platform for our beloved patients, send a message now... </p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     </Carousel>
