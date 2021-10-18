@@ -1,12 +1,11 @@
 .cover{
-    background-color: rgba(23, 122, 226);
-    /* background-color: #177ae2; */
+    background-image: linear-gradient(rgba(29, 26, 26, 0.26), #17253570),url('../../../Images/Blooddonation.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
 }
 .donor{
-    /* background-image: url('../../../Images/Blooddonation.jpg'); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-attachment: fixed;
-    height: 220px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: rgba(23, 121, 226, 0.514);
 }

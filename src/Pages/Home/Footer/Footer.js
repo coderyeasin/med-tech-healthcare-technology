@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, FormControl, InputGroup, Row } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationArrow, faPhone, faEnvelope, } from '@fortawesome/free-solid-svg-icons'
 import './Footer.css';
 
 const Footer = () => {
@@ -9,9 +11,9 @@ const Footer = () => {
                 <Row className="d-flex justify-content-left align-items-center text-light">
                     <div className="col-md-3"> <h3>Address</h3>
                         <address>
-                        Location: 143 Gordon Terrace Embarrassing NG33 0ZT United Kingdom
-                        Email: info@healthcare.com
-                        Phone: +1800 326 3264
+                        <p><FontAwesomeIcon icon={faLocationArrow} />  Location: 143 Gordon Terrace Embarrassing NG33 0ZT United Kingdom</p>
+                        <p>   <FontAwesomeIcon icon={faPhone} />  Email: info@healthcare.com</p>
+                        <p><FontAwesomeIcon icon={faEnvelope} />  Phone: +1800 326 3264</p>
                         </address>
                     </div>
                     <div className="col-md-3"> <h3>Social Media</h3>
@@ -29,13 +31,13 @@ const Footer = () => {
                             <li>Doctor's Chamber</li>
                             <li>About us</li>
                             <li>Career</li>
-                            <li>Vision</li>
+                            <li>Vision & Mission</li>
                     </ul>
                     </div>
                     <div className="col-md-3"> <h3>Subscribe</h3>
                     <InputGroup className="mb-3">
                         <FormControl
-                        placeholder="Subscribe with Email"
+                        placeholder="Don't Miss Update"
                         aria-label="Recipient's username"
                         aria-describedby="basic-addon2"
                         />
@@ -44,8 +46,8 @@ const Footer = () => {
                     </div>
                 </Row>
             </Container>
-            <p className="bottom-bar mt-3">
-                <h5 className="text-center text-light py-2">MedTech 2021 @ All Rights Reserved</h5>
+            <p className="mt-3 text-center">
+                <small className="text-center text-light px-2 py-2 bottom-bar w-50 rounded-pill mx-auto">MedTech 2021 @ All Rights Reserved</small>
             </p>
         </div>
     );

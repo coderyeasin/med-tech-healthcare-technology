@@ -16,7 +16,7 @@ const Services = () => {
     return (
         <Container>
             <div className="my-5">
-            <h3 className="text-primary text-uppercase mb-5">Our Services</h3>
+            <h3 className="title text-center text-uppercase mb-5">Our Services</h3>
             <div className="grid-service">
             {
                 service.map(item => <Service key={item.id} item={item}></Service>)

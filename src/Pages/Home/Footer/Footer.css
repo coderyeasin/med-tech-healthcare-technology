@@ -4,3 +4,9 @@
 .bottom-bar{
     background-color: #0e70d8;
 }
+
+@media only screen and (min-width:375px) {
+    .footer{
+        text-align: center;
+    }
+}

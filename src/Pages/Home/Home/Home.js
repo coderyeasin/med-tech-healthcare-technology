@@ -6,6 +6,7 @@ import Services from '../Services/Services';
 import Slider from '../Slider/Slider';
 import Footer from '../Footer/Footer';
 import Blog from '../Blog/Blog';
+import Care from '../Care/Care';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Services></Services>
             <Blood></Blood>
             <Blog></Blog>
+            <Care></Care>
             <Footer></Footer>
         </div>
     );

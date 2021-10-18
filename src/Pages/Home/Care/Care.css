@@ -1,0 +1,23 @@
+/* 
+@media only screen and (min-width:1380px) {
+    .care-center{
+        background: linear-gradient(to left, rgb(150, 219, 252), rgba(71, 74, 78, 0.3)), url('../../../Images/other/care.jpg');
+        background-color: #cccccc; 
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+} */
+
+.care-doctor{
+    background-image: linear-gradient(rgba(29, 26, 26, 0.26), #17253570),url('../../../Images/other/care.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.care{
+    color: #fff;
+    border-radius: 20px;
+    background-color: rgba(23, 121, 226, 0.514);
+}
