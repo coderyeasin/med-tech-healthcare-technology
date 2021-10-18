@@ -6,7 +6,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="footer mt-5 py-3">
+        <div className="footer py-3">
             <Container>
                 <Row className="d-flex justify-content-left align-items-center text-light">
                     <div className="col-md-3"> <h3>Address</h3>

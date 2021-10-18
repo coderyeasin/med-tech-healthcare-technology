@@ -1,3 +1,10 @@
 .logo{
     height: 60px;
 }
+.appoin{
+    background-color: #177ae2;
+}
+
+.Navbar, .NavDropdown.title{
+    color: #177ae2;
+}

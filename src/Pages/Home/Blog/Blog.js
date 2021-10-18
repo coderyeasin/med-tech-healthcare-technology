@@ -9,7 +9,7 @@ import './Blog.css';
 const Blog = () => {
     return (
         <>
-            <Container className="my-5">
+            <Container className="my-3">
                 <h2 className="text-center title">Happy Patients</h2>
                 <p className="text-center">Looking for service, see our happy patients what say about us </p>
                 <Row className="my-5">

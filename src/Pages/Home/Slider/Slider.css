@@ -3,10 +3,8 @@
     background-color: rgba(111, 165, 156, 0.7);
 }
 
-
-
 @media only screen and (min-width:1366px) {
     .slider-container img{
-        height: 550px;
+        height: 600px;
     }
 }

@@ -15,9 +15,9 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#link">Features</Nav.Link>
-                    <NavDropdown title="Services" id="basic-nav-dropdown">
+                    <Nav.Link className="text-primary" href="#home">Home</Nav.Link>
+                    <Nav.Link className="text-primary" href="#link">About</Nav.Link>
+                    <NavDropdown className="text-primary" title="Services" id="basic-nav-dropdown">
                     <NavDropdown.Item href="#action/3.1">Brain Surgery</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">Health Checkup</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.3">Cell in Brain</NavDropdown.Item>
@@ -26,10 +26,10 @@ const Header = () => {
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action/3.4">Get More Services</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="#home">Blog</Nav.Link>
-                    <Nav.Link href="#home">Contact</Nav.Link>
+                    <Nav.Link className="text-primary" href="#home">Blog</Nav.Link>
+                    <Nav.Link className="text-primary" href="#home">Contact</Nav.Link>
                         </Nav>
-                        <Button className="btn btn-primary rounded-pill text-light">Login</Button>
+                        <Button className="appoin rounded-pill text-light">Appoinment</Button>
                     </Navbar.Collapse>
                 
             </Container>

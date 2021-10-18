@@ -5,13 +5,32 @@ import './Care.css';
 const Care = () => {
     return (
         <div className="care-doctor py-5">
-            <h3 className="text-center">Patient Care Center</h3>
-        <div className="text-center w-50 mx-auto care">
-        <h3>Donate Blood, Save Life | Blood Campaign</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea mmodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+            <h3 className="text-center w-25 mx-auto care">Most Popular Surgery</h3>
+            <Row  className="text-center mx-auto care">
+            <div className="col-lg-3">
+                <h3 >Plastic Surgery Statistics</h3>
+                <p>Within the following pages, we present some of the most common benefits and risks of these procedures. No surgical procedure is without risk. A discussion of all potential benefits and complications should be held during consultation with a board-certified plastic surgeon.</p>
+          
+                </div>
+                <div className="col-lg-3">
+                <h3 >Reconstructive Surgery</h3>
+                <p>Within the following pages, we present some of the most common benefits and risks of these procedures. No surgical procedure is without risk. A discussion of all potential benefits and complications should be held during consultation with a board-certified plastic surgeon.</p>       
+                </div>
+                <div className="col-lg-3">
+                <h3 >Constructive Surgery</h3>
+                <p>Within the following pages, we present some of the most common benefits and risks of these procedures. No surgical procedure is without risk. A discussion of all potential benefits and complications should be held during consultation with a board-certified plastic surgeon.</p>       
+                </div>
+                <div className="col-lg-3">
+                <h3 >Plastic Surgery</h3>
+                <p>Within the following pages, we present some of the most common benefits and risks of these procedures. No surgical procedure is without risk. A discussion of all potential benefits and complications should be held during consultation with a board-certified plastic surgeon.</p>       
         </div>
+       </Row>
     </div>
     );
 };
 
 export default Care;
+
+/*       <h3 className="text-center w-25 mx-auto care">Plastic Surgery </h3>
+                <h3 className="text-center w-25 mx-auto care">Reconstructive Surgery </h3>
+                <h3 className="text-center w-25 mx-auto care">Constructive Surgery</h3> */
