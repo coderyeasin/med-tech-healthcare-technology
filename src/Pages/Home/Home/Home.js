@@ -5,6 +5,7 @@ import Header from '../Header/Header';
 import Services from '../Services/Services';
 import Slider from '../Slider/Slider';
 import Footer from '../Footer/Footer';
+import Blog from '../Blog/Blog';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Features></Features>
             <Services></Services>
             <Blood></Blood>
+            <Blog></Blog>
             <Footer></Footer>
         </div>
     );
