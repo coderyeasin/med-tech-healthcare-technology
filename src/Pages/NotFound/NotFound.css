@@ -1,0 +1,7 @@
+.error{
+    background-image: url('../../Images/other/not-found.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 350px;
+}

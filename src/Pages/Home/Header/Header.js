@@ -1,10 +1,16 @@
 import React from 'react';
-import { Button, Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import logo from '../../../Images/logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 import './Header.css';
+import { Link } from 'react-router-dom';
+import useAuth from '../../../Hooks/useAuth';
+import useFirebase from '../../../Hooks/useFirebase';
 
 const Header = () => {
+    const { user, logout } = useFirebase();
+
     return (
         <div>
      <Navbar bg="light" expand="lg" fixed="top">
@@ -16,7 +22,7 @@ const Header = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
                     <Nav.Link className="text-primary" href="#home">Home</Nav.Link>
-                    <Nav.Link className="text-primary" href="#link">About</Nav.Link>
+                    <Nav.Link className="text-primary" href="#link">Features</Nav.Link>
                     <NavDropdown className="text-primary" title="Services" id="basic-nav-dropdown">
                     <NavDropdown.Item href="#action/3.1">Brain Surgery</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">Health Checkup</NavDropdown.Item>
@@ -26,10 +32,16 @@ const Header = () => {
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action/3.4">Get More Services</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link className="text-primary" href="#home">Blog</Nav.Link>
-                    <Nav.Link className="text-primary" href="#home">Contact</Nav.Link>
+                    <Nav.Link className="text-primary" href="#home">MedTechs</Nav.Link>
+                            <Nav.Link className="text-primary" href="#home">
+                                {user.email ?
+                                    <img width="30px" height="30px" className="img-fluid rounded-circle" src={user.photoURL} alt="" />
+                                    || `${user.displayName}`
+                                : <FontAwesomeIcon icon={faUser} />}</Nav.Link>
                         </Nav>
-                        <Button className="appoin rounded-pill text-light">Appoinment</Button>
+                        <Link onClick={logout} to="/login" className="appoin rounded-pill text-light px-3">
+                            {user.email ? 'Logout' : 'Login'}
+            </Link>
                     </Navbar.Collapse>
                 
             </Container>
