@@ -7,7 +7,7 @@ import doctor from '../../../Images/other/care.jpg'
 
 const Login = () => {
 
-    const { handleNamechange, googleSigning, handleEmail, handlePass, githubLogin, handleRegistration, isLogin, toggleLogin, handleResetPass, error } = useFirebase();
+    const { handleNamechange, googleSigning, handleEmail, handlePass, githubLogin, handleRegistration, isLogin, toggleLogin, handleResetPass, error } = useAuth();
     const location = useLocation()
     const history = useHistory();
     const redirect_uri = location.state?.form || '/home';

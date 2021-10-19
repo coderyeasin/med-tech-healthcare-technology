@@ -6,22 +6,28 @@ import NotFound from './Pages/NotFound/NotFound'
 import Login from './Pages/Home/Login/Login';
 import Header from './Pages/Home/Header/Header';
 import Footer from './Pages/Home/Footer/Footer';
+import Doctors from './Pages/Doctors/Doctors';
+import MedTechs from './Pages/MedTechs/MedTechs';
+import AuthProvider from './Context/AuthProvider';
+import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
     <div className="App">
+      <AuthProvider>
       <Router>
       <Header></Header>
         <Switch>
           <Route exact path="/"><Home></Home></Route>
-          <Route  path="/home"><Home></Home></Route>
-          {/* <Route  path="/feature"><Home></Home></Route>
-          <Route  path="/services"><Home></Home></Route> */}
+          <Route path="/home"><Home></Home></Route>
+          <PrivateRoute  path="/doctors"><Doctors></Doctors></PrivateRoute>
+          <PrivateRoute  path="/medtechs"><MedTechs></MedTechs></PrivateRoute>
           <Route  path="/login"><Login></Login></Route>
           <Route  path="*"><NotFound></NotFound></Route>
       </Switch>
       <Footer></Footer>
       </Router>
+      </AuthProvider>
     </div>
   );
 }

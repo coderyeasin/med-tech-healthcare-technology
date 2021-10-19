@@ -20,10 +20,7 @@ const useFirebase = () => {
     const googleProvider = new GoogleAuthProvider();
     const gitProvider = new GithubAuthProvider();
 
-    const location = useLocation()
-    const history = useHistory();
-    const redirect_uri = location.state?.form || '/home';
-
+  
 
     //google
     const googleSigning = () => {
@@ -101,7 +98,6 @@ const useFirebase = () => {
                 setError('')
                 verifyEmail()
                 setUserName()
-                history.push(redirect_uri)
             })
             .catch(error => {
                 setError(error.message)
