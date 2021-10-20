@@ -7,8 +7,10 @@ If Doctor's are not up-to-date with future technology then probably it's getting
 
 <ul>
     <li>Modern Technology in Medical History</li>
-    <li>Powerful Features </li>
-    <li>Blood Campaign & Happy Patients  </li>
-    <li> See MedTech Blogs, why we're best in MedTech Field</li>
-    <li> Best use for Surgery </li>
+    <li> Powerful Features </li>
+    <li> MedTech using Happy Patients  </li>
+    <li> why we're best in MedTech Field</li>
+    <li> Best use for Surgery Operation</li>
+    <li> see who's doctor use our MedTechnology</li>
+    <li> Know About MedTech Product</li>
 </ul>

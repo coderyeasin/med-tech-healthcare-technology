@@ -2,6 +2,7 @@ import React from 'react';
 import {Card, Container, Row } from 'react-bootstrap';
 import blog1 from '../../../Images/happy_patient.jpg'
 import blog2 from '../../../Images/happy_patient_two.jpg'
+import blog3 from '../../../Images/other/glove-hand.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComment, faThumbsUp } from '@fortawesome/free-solid-svg-icons'
 import './Blog.css';
@@ -31,7 +32,7 @@ const Blog = () => {
                     </div>
                     <div className="col-md-4">               
                         <Card className="blog-article p-3">
-                        <img className="img-fluid rounded-circle w-50 h-50 mx-auto" src={blog1} alt="" />
+                        <img className="img-fluid rounded-circle w-50 h-50 mx-auto" src={blog3} alt="" />
                         <h3 className="py-2">Plastic and Reconstructive Surgery</h3>
                         <p>plastic surgery techniques or works in conjunction with a plastic surgeon. The official journal of the American Society of Plastic Surgeons, Plastic and Reconstructive Surgery brings subscribers...</p>
                         <p className="text-secondary"><span className="px-2"> <FontAwesomeIcon icon={faComment} />1k comments </span><span className="px-2"> <FontAwesomeIcon icon={faThumbsUp} /> like:2.5k</span></p>

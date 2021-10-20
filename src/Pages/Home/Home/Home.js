@@ -8,7 +8,7 @@ import Care from '../Care/Care';
 
 const Home = () => {
     return (
-        <div> 
+        <div id="home"> 
             <Slider></Slider>
             <Features></Features>
             <Services></Services>

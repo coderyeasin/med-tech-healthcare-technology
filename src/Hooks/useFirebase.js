@@ -1,6 +1,5 @@
 import { getAuth, updateProfile, signInWithPopup, GoogleAuthProvider, sendPasswordResetEmail, onAuthStateChanged, sendEmailVerification, createUserWithEmailAndPassword, signInWithEmailAndPassword, GithubAuthProvider, signOut } from "firebase/auth";
 import { useEffect, useState } from "react";
-import { useHistory, useLocation } from "react-router";
 import healthcareAuthentication from '../Firebase/firebase.init';
 
 
@@ -30,13 +29,8 @@ const useFirebase = () => {
 
     //github
     const githubLogin = () => {
-        signInWithPopup(auth, gitProvider)
-            .then(result => {
-                const user = result.user
-                console.log(user);
-                setError('')
-                setUserName()
-        })
+       return signInWithPopup(auth, gitProvider)
+     
     }
 
     const logout = () => {

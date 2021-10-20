@@ -1,11 +1,11 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 import './Care.css';
 
 const Care = () => {
     return (
         <div className="care-doctor py-5">
-            <h3 className="text-center w-25 mx-auto py-3 care">MedTech use for Popular Surgery</h3>
+            <h3 className="text-center w-50 mx-auto p-3 care">MedTech For Surgery</h3>
             <Row  className="text-center mx-auto care">
             <div className="col-lg-3">
                 <h3 className="py-3">Plastic Surgery Statistics</h3>
