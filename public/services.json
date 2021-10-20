@@ -1,38 +1,50 @@
 [
     {
-      "id": 0,
+      "id": 1,
       "name": "GLASS TOUCH TECH",
-      "description": "Glass touch technology is most powerful for doctor, they find problem easily",
+      "description": "Glass touch technology is most powerful for doctor, they find problem easily, Glass touch technology is most powerful for doctor, they find problem easily, Diagnose your full body within few minutes using diagnose tech in your body search, Diagnose your full body within few minutes using diagnose tech in your body search",
+      "review": 5,
+      "price": 15000,
       "img": "https://i.ibb.co/2yswgQD/smart-glasses-touching-virtual.jpg"
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "PINK NERVE TECH",
-      "description": "Pink nerve technology also powerful feature for Med Industry Revolution works.",
+      "description": "Pink nerve technology also powerful feature for Med Industry Revolution works, Glass touch technology is most powerful for doctor, they find problem easily, Diagnose your full body within few minutes using diagnose tech in your body search, Diagnose your full body within few minutes using diagnose tech in your body search",
+      "review": 4,
+      "price": 5000,
       "img": "https://i.ibb.co/tQhW3kh/pink-nerve-network.jpg"
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "POINTING VIRTUAL",
-      "description": "Virtually point on specific disease, find the smartest solution from doctors",
+      "description": "Virtually point on specific disease, find the smartest solution from doctor, Glass touch technology is most powerful for doctor, they find problem easily, Diagnose your full body within few minutes using diagnose tech in your body search, Diagnose your full body within few minutes using diagnose tech in your body search",
+      "review": 3,
+      "price": 9000,
       "img": "https://i.ibb.co/ZSZphWC/pointing-virtual.jpg"
     },
     {
-      "id": 3,
+      "id": 5,
       "name": "MENTAL HEALTH",
-      "description": "Disability  person controls their health info superman person they are here did",
+      "description": "Disability  person controls their health info superman person they are here di, Glass touch technology is most powerful for doctor, they find problem easily, Diagnose your full body within few minutes using diagnose tech in your body search, Diagnose your full body within few minutes using diagnose tech in your body search",
+      "review": 5,
+      "price": 1300,
       "img": "https://i.ibb.co/B6qRCrg/mental-health.jpg"
     },
     {
-      "id": 4,
+      "id": 6,
       "name": "BRAIN TECH",
-      "description": "uses Brain Tech to find easy solution who has face that types problem in their mind.",
+      "description": "uses Brain Tech to find easy solution who has face that types problem in their mind, Glass touch technology is most powerful for doctor, they find problem easily, Diagnose your full body within few minutes using diagnose tech in your body search, Diagnose your full body within few minutes using diagnose tech in your body search",
+      "review": 4.5,
+      "price": 7500,
       "img": "https://i.ibb.co/17Bntqy/brain-tech.jpg"
     },
     {
       "id": 5,
       "name": "DIAGNOSE TECH",
-      "description": "Diagnose your full body within few minutes using diagnose tech in your body search.",
+      "description": "Diagnose your full body within few minutes using diagnose tech in your body search, Glass touch technology is most powerful for doctor, they find problem easily, Diagnose your full body within few minutes using diagnose tech in your body search, Diagnose your full body within few minutes using diagnose tech in your body search",
+      "review": 3.5,
+      "price": 8000,
       "img": "https://i.ibb.co/YctN0tr/diagnose-technology.jpg"
     }
   ]

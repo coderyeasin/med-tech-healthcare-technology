@@ -11,7 +11,7 @@
 } */
 
 .care-doctor{
-    background-image: linear-gradient(rgba(29, 26, 26, 0.26), #17253570),url('../../../Images/other/care.jpg');
+    background-image: linear-gradient(rgba(29, 26, 26, 0.5), #17253570),url('../../../Images/other/care.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;

@@ -8,16 +8,17 @@ const Footer = () => {
     return (
         <div className="footer py-3">
             <Container>
-                <Row className="d-flex justify-content-left align-items-center text-light">
-                    <div className="col-md-3"> <h3>Address</h3>
+                <Row className="d-flex justify-content-center align-items-center text-light">
+                    <div className="col-md-3">
+                        <h3>Address</h3>
                         <address>
-                        <p><FontAwesomeIcon icon={faLocationArrow} />  Location: 143 Gordon Terrace Embarrassing NG33 0ZT United Kingdom</p>
+                        <p><FontAwesomeIcon icon={faLocationArrow} />  Location: 143 Gordon Terrace Embarrassing <br />NG33 0ZT United Kingdom</p>
                         <p>   <FontAwesomeIcon icon={faPhone} />  Email: info@healthcare.com</p>
                         <p><FontAwesomeIcon icon={faEnvelope} />  Phone: +1800 326 3264</p>
                         </address>
                     </div>
-                    <div className="col-md-3"> <h3>Social Media</h3>
-                        <ul className="list-unstyled">
+                    <div className="col-md-3 "> <h3>Social Media</h3>
+                        <ul className="list-unstyled ">
                             <li>Facebook</li>
                             <li>Twitter</li>
                             <li>LinkedIn</li>

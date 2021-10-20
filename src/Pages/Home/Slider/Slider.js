@@ -8,9 +8,9 @@ import './Slider.css';
 const Slider = () => {
 
     return (
-        <div className="slider-container">
+        <div  className="slider-container">
             <Carousel>
-                    <Carousel.Item>
+                    <Carousel.Item className="py-5">
                         <img
                         className="d-block w-100"
                         src={slide1}
@@ -21,7 +21,7 @@ const Slider = () => {
                         <p>We have Some Awesome Stuff & Doctor's, Who take all responsibilities for patients in COVID-19.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item className="py-5">
                         <img
                         className="d-block w-100"
                         src={slide2}
@@ -29,11 +29,11 @@ const Slider = () => {
                         />
 
                         <Carousel.Caption className="w-50 mx-auto caption">
-                        <h3>Health Fitness</h3>
+                        <h3>Simple Surgery</h3>
                         <p>How to burn your weight, She's provided Awesome Fitness Tips, Follow Dr.Nourine</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item className="py-5">
                         <img
                         className="d-block w-100"
                         src={slide3}

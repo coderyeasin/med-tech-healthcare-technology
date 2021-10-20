@@ -6,17 +6,17 @@ import tech3 from '../../Images/Services/mental-health.jpg'
 
 const MedTechs = () => {
     return (
-        <Container>
+        <Container className="my-5 py-4">
         <Row>
-            <div className="col-md-4">
+            <div className="col-md-4 my-5 py-5">
                 <h3 className="text-primary text-center"> Brain Tech </h3>
                 <img className="img-fluid" src={tech1} alt="" />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 my-5 py-5">
             <h3 className="text-primary text-center"> Diagnose Tech </h3>
                 <img className="img-fluid" src={tech2} alt="" />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 my-5 py-5">
             <h3 className="text-primary text-center"> Mental Health</h3>
                 <img className="img-fluid" src={tech3} alt="" />
             </div>

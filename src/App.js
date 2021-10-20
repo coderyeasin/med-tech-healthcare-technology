@@ -10,6 +10,7 @@ import Doctors from './Pages/Doctors/Doctors';
 import MedTechs from './Pages/MedTechs/MedTechs';
 import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
+import Detail from './Pages/Detail/Detail';
 
 function App() {
   return (
@@ -19,9 +20,10 @@ function App() {
       <Header></Header>
         <Switch>
           <Route exact path="/"><Home></Home></Route>
-          <Route path="/home"><Home></Home></Route>
+            <Route path="/home"><Home></Home></Route>
           <PrivateRoute  path="/doctors"><Doctors></Doctors></PrivateRoute>
-          <PrivateRoute  path="/medtechs"><MedTechs></MedTechs></PrivateRoute>
+            <PrivateRoute path="/medtechs"><MedTechs></MedTechs></PrivateRoute>
+            <Route exact path="/detail/:id"><Detail></Detail></Route>
           <Route  path="/login"><Login></Login></Route>
           <Route  path="*"><NotFound></NotFound></Route>
       </Switch>

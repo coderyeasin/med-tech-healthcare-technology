@@ -4,13 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faAmbulance, faHandHoldingMedical, faTeethOpen, faHeartbeat } from '@fortawesome/free-solid-svg-icons'
 
 const Features = () => {
+
     return (
         <>
          <Container className="my-3">
                 <Row>
                 <CardGroup>
                     <Card className="p-3  text-center">
-                    <FontAwesomeIcon className="mx-auto fs-1 text-danger" icon={faAmbulance} />
+                    <FontAwesomeIcon className="mx-auto fs-1 title"  icon={faAmbulance} />
                         <Card.Body>
                         <Card.Title>Emergency Care</Card.Title>
                         <Card.Text>
@@ -20,7 +21,7 @@ The 108 Emergency Ambulance Service is a 24x7 service, which anyone can avail by
                         </Card.Body>
                     </Card>
                     <Card className="p-3 text-center">
-                        <FontAwesomeIcon className="mx-auto fs-1 text-success" icon={faHandHoldingMedical} />
+                        <FontAwesomeIcon className="mx-auto fs-1 title" icon={faHandHoldingMedical} />
                         <Card.Body>
                         <Card.Title>Blood Test</Card.Title>
                         <Card.Text>
@@ -29,7 +30,7 @@ The 108 Emergency Ambulance Service is a 24x7 service, which anyone can avail by
                         </Card.Body>
                     </Card>
                     <Card className="p-3 text-center">
-                        <FontAwesomeIcon className="mx-auto fs-1 text-warning" icon={faTeethOpen} />
+                        <FontAwesomeIcon className="mx-auto fs-1 title" icon={faTeethOpen} />
                         <Card.Body>
                         <Card.Title>Dental Care </Card.Title>
                         <Card.Text>
@@ -38,7 +39,7 @@ The 108 Emergency Ambulance Service is a 24x7 service, which anyone can avail by
                         </Card.Body>
                 </Card>
                 <Card className="p-3 text-center">
-                        <FontAwesomeIcon className="mx-auto fs-1 text-info" icon={faHeartbeat} />
+                        <FontAwesomeIcon className="mx-auto fs-1 title" icon={faHeartbeat} />
                         <Card.Body>
                         <Card.Title>Heart disease</Card.Title>
                         <Card.Text>
